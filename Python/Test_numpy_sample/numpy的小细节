@@ -1,0 +1,16 @@
+
+
+1.在 Python NumPy 数组中仅输出小数点后三位的数字
+np.set_printoptions(precision=3)
+
+
+2.禁用科学计数法（如 1e10）打印 NumPy 数组
+np.set_printoptions(suppress=False)
+
+
+限制 NumPy 数组输出中项的数目
+np.set_printoptions(threshold=6)
+
+
+在不截断数组的前提下打印出完整的 NumPy 数组
+np.set_printoptions(threshold=np.nan)
