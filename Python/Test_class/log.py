@@ -46,5 +46,7 @@ def cal_time(a):
     print(d)
 
 
+
+
 if __name__ == '__main__':
     cal_time(510)
