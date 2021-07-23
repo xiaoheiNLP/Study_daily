@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 """
 @author: xinquan
-@file: trt_tqdm.py
+@file: try_tqdm.py
 @time: 2021/7/23 3:11 下午
 @desc: 
 """
@@ -15,10 +15,10 @@ root_path = os.path.split(os.path.realpath(__file__))[0]  # 获取该脚本的�
 import time
 from tqdm import tqdm, trange
 
-#trange(i)是tqdm(range(i))的一种简单写法
-for i in trange(100):
-    time.sleep(0.05)
-
+# trange(i)是tqdm(range(i))的一种简单写法
+# for i in trange(100):
+#     time.sleep(0.05)
+#
 for i in tqdm(range(100), desc='Processing'):
     time.sleep(0.05)
 
